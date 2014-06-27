@@ -1,4 +1,4 @@
-BaseApp::Application.configure do
+Harmony::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # The test environment is used exclusively to run your application's
@@ -17,8 +17,6 @@ BaseApp::Application.configure do
   # Show full error reports and disable caching
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
-  
-  config.action_mailer.default_url_options = { :host => 'www.example.com' }
 
   # Raise exceptions instead of rendering exception templates
   config.action_dispatch.show_exceptions = false
